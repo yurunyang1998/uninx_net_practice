@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase.h
+netinet/in.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/netinet/in.h
+arpa/inet.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/arpa/inet.h
+sys/socket.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/sys/socket.h
+ctype.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/ctype.h
+
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c
+memory.h
+-
+stdio.h
+-
+i6d_ucase.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase.h
+
