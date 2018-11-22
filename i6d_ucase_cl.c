@@ -22,11 +22,14 @@ int main()
 
     for(int i=0;i<4;i++)
     {
-        char *inputbuf;
-        scanf("%s",inputbuf);
-        sendto(sfd,inputbuf,strlen(inputbuf),0,&svaddr, sizeof(svaddr));
-
-        char *recvbuf;
+        char inputbuf[BUF_SIZE];
+        printf("please input ");
+        scanf("%s",&inputbuf);
+        int len = strlen(inputbuf);
+        int msglen = sendto(sfd,inputbuf ,len,0,(struct sockaddr *) &svaddr, sizeof(struct sockaddr_in));
+        if(msglen != len)
+            perror("send");
+        char recvbuf[BUF_SIZE];
         int nums = recvfrom(sfd,recvbuf,BUF_SIZE,0, NULL, NULL);
         printf("%s\n", recvbuf);
     }

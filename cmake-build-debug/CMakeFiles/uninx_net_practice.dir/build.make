@@ -57,38 +57,38 @@ include CMakeFiles/uninx_net_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/uninx_net_practice.dir/flags.make
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o: CMakeFiles/uninx_net_practice.dir/flags.make
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o: ../i6d_ucase_sv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yurunyang/Desktop/networkprogram/uninx_net_practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o   -c /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o: CMakeFiles/uninx_net_practice.dir/flags.make
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o: ../i6d_ucase_cl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yurunyang/Desktop/networkprogram/uninx_net_practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o   -c /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c > CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.i
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c > CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.i
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c -o CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.s
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c -o CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.s
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.requires:
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.requires:
 
-.PHONY : CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.requires
+.PHONY : CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.requires
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.provides: CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.requires
-	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.provides.build
-.PHONY : CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.provides
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.provides: CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.requires
+	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.provides.build
+.PHONY : CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.provides
 
-CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.provides.build: CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o
+CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.provides.build: CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o
 
 
 # Object files for target uninx_net_practice
 uninx_net_practice_OBJECTS = \
-"CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o"
+"CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o"
 
 # External object files for target uninx_net_practice
 uninx_net_practice_EXTERNAL_OBJECTS =
 
-uninx_net_practice: CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o
+uninx_net_practice: CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o
 uninx_net_practice: CMakeFiles/uninx_net_practice.dir/build.make
 uninx_net_practice: CMakeFiles/uninx_net_practice.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yurunyang/Desktop/networkprogram/uninx_net_practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable uninx_net_practice"
@@ -99,7 +99,7 @@ CMakeFiles/uninx_net_practice.dir/build: uninx_net_practice
 
 .PHONY : CMakeFiles/uninx_net_practice.dir/build
 
-CMakeFiles/uninx_net_practice.dir/requires: CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o.requires
+CMakeFiles/uninx_net_practice.dir/requires: CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o.requires
 
 .PHONY : CMakeFiles/uninx_net_practice.dir/requires
 

@@ -11,7 +11,7 @@
 #include "sys/socket.h"
 #include "ctype.h"
 
-#define  BUF_SIZE 10
+#define  BUF_SIZE 100
 #define  PORT_NUM 50002
 
 

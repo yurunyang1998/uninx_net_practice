@@ -3,5 +3,5 @@ project(uninx_net_practice)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES i6d_ucase_sv.c)
+set(SOURCE_FILES i6d_ucase_cl.c)
 add_executable(uninx_net_practice ${SOURCE_FILES})

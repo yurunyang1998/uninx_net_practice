@@ -16,7 +16,7 @@ int main() {
     if (sfd == -1)
         perror("socket");
 
-    memset(&svaddr, 0, sizeof(struct sockaddr_in6));
+    memset(&svaddr, 0, sizeof(struct sockaddr_in));
     svaddr.sin_family = AF_INET;
     svaddr.sin_addr.s_addr =  INADDR_ANY;
     svaddr.sin_port = htons(PORT_NUM);
@@ -28,13 +28,20 @@ int main() {
 
     for (;;) {
         len = sizeof(struct sockaddr_in);
-        numBytes = recvfrom(sfd, buf, BUF_SIZE, 0, &claddr, len);
+        numBytes = recvfrom(sfd, buf, BUF_SIZE, 0, (struct  sockaddr*) &claddr, &len);
         if (numBytes == -1)
             perror("recv");
+      x
         if (inet_ntop(AF_INET, &claddr.sin_addr, claddrStr, INET_ADDRSTRLEN) == NULL)
             printf("can not find client address");
         else
             printf("the client address is %d", claddrStr);
+
+        for(int j=0;j<numBytes;j++)
+        {
+            buf[j] = toupper((
+            unsigned char ) buf[j]);
+        }
 
         if (sendto(sfd, buf, numBytes, 0, &claddr, len) == -1)
             perror("sendto");
