@@ -14,7 +14,7 @@ int main()
     memset(&svaddr, 0, sizeof(struct sockaddr));
 
     svaddr.sin_family = AF_INET;
-    svaddr.sin_port = 9999;
+    svaddr.sin_port = htons(PORT_NUM);
     inet_pton(AF_INET,"101.132.40.140",&svaddr.sin_addr.s_addr);
 
     if(sfd == -1 )

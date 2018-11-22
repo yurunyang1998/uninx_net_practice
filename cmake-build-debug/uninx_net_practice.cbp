@@ -88,7 +88,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c">
+		<Unit filename="/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c">
 			<Option target="uninx_net_practice"/>
 		</Unit>
 		<Unit filename="/home/yurunyang/Desktop/networkprogram/uninx_net_practice/CMakeLists.txt">

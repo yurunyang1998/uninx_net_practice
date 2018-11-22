@@ -123,32 +123,32 @@ uninx_net_practice/fast:
 	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/build
 .PHONY : uninx_net_practice/fast
 
-i6d_ucase_cl.o: i6d_ucase_cl.c.o
+i6d_ucase_sv.o: i6d_ucase_sv.c.o
 
-.PHONY : i6d_ucase_cl.o
+.PHONY : i6d_ucase_sv.o
 
 # target to build an object file
-i6d_ucase_cl.c.o:
-	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o
-.PHONY : i6d_ucase_cl.c.o
+i6d_ucase_sv.c.o:
+	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o
+.PHONY : i6d_ucase_sv.c.o
 
-i6d_ucase_cl.i: i6d_ucase_cl.c.i
+i6d_ucase_sv.i: i6d_ucase_sv.c.i
 
-.PHONY : i6d_ucase_cl.i
+.PHONY : i6d_ucase_sv.i
 
 # target to preprocess a source file
-i6d_ucase_cl.c.i:
-	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.i
-.PHONY : i6d_ucase_cl.c.i
+i6d_ucase_sv.c.i:
+	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.i
+.PHONY : i6d_ucase_sv.c.i
 
-i6d_ucase_cl.s: i6d_ucase_cl.c.s
+i6d_ucase_sv.s: i6d_ucase_sv.c.s
 
-.PHONY : i6d_ucase_cl.s
+.PHONY : i6d_ucase_sv.s
 
 # target to generate assembly for a file
-i6d_ucase_cl.c.s:
-	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.s
-.PHONY : i6d_ucase_cl.c.s
+i6d_ucase_sv.c.s:
+	$(MAKE) -f CMakeFiles/uninx_net_practice.dir/build.make CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.s
+.PHONY : i6d_ucase_sv.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... uninx_net_practice"
-	@echo "... i6d_ucase_cl.o"
-	@echo "... i6d_ucase_cl.i"
-	@echo "... i6d_ucase_cl.s"
+	@echo "... i6d_ucase_sv.o"
+	@echo "... i6d_ucase_sv.i"
+	@echo "... i6d_ucase_sv.s"
 .PHONY : help
 
 

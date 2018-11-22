@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o"
+  "CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o"
   "uninx_net_practice.pdb"
   "uninx_net_practice"
 )

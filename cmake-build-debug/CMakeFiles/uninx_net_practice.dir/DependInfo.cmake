@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c" "/home/yurunyang/Desktop/networkprogram/uninx_net_practice/cmake-build-debug/CMakeFiles/uninx_net_practice.dir/i6d_ucase_cl.c.o"
+  "/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c" "/home/yurunyang/Desktop/networkprogram/uninx_net_practice/cmake-build-debug/CMakeFiles/uninx_net_practice.dir/i6d_ucase_sv.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

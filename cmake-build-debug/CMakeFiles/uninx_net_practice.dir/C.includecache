@@ -16,11 +16,17 @@ sys/socket.h
 ctype.h
 /home/yurunyang/Desktop/networkprogram/uninx_net_practice/ctype.h
 
-/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_cl.c
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase_sv.c
 memory.h
 -
-stdio.h
+error.h
 -
+printf.h
+-
+stdlib.h
+-
+stdio.h
+/home/yurunyang/Desktop/networkprogram/uninx_net_practice/stdio.h
 i6d_ucase.h
 /home/yurunyang/Desktop/networkprogram/uninx_net_practice/i6d_ucase.h
 

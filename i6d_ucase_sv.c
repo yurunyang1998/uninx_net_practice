@@ -23,6 +23,8 @@ int main() {
 
     if (bind(sfd,  ( struct sockaddr_in *) &svaddr, sizeof(svaddr) )== -1)
         perror("bind");
+    else
+        printf("bind succeed \n");
 
     for (;;) {
         len = sizeof(struct sockaddr_in);
